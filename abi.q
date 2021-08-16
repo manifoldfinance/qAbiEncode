@@ -14,19 +14,19 @@ castToHex: {[x]
     -10h = tp; / char
     "x"$enlist x;
     4h = tp; / bytes
-	x;
-	-4h = tp;   / byte
-	enlist x;
-	-7h = tp;   / long
-	int_to_hex x;
-	-6h = tp;   / int
-	int_to_hex x;
-	-5h = tp;   / short
-	int_to_hex x;
+    x;
+    -4h = tp;   / byte
+    enlist x;
+    -7h = tp;   / long
+    int_to_hex x;
+    -6h = tp;   / int
+    int_to_hex x;
+    -5h = tp;   / short
+    int_to_hex x;
     -1h = tp;
     "x"$x;
-	'`unknownType
-	]
+    '`unknownType
+    ]
   };
 
 pad32: {[x] 
