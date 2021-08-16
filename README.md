@@ -8,7 +8,7 @@ Supports encoding of static and dynamic types. Fixed types have not been include
 ## Install
 Download repo contents and compile C library e.g.
 ```shell
-$ git clone 
+$ git clone https://github.com/manifoldfinance/qAbiEncode.git
 $ cd qAbiEncode
 $ make
 ```
