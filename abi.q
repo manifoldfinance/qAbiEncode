@@ -42,7 +42,7 @@ padRight32: {[x]
 encodeValue: {[x]
     paramType: x[0];
     paramValue: x[1];
-    $[any (paramType=`uint8),(paramType=`uint16), (paramType=`uint32),paramType=`uint64;
+    $[any (paramType=`uint),(paramType=`uint8),(paramType=`uint16), (paramType=`uint32),paramType=`uint64;
         pad32 castToHex paramValue;
         paramType=`bool;
         pad32 castToHex paramValue;
